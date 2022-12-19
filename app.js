@@ -5,7 +5,7 @@ mongoose.set('strictQuery', true);
 app.use(express.json());
 const cors = require("cors");
 const corsOptions ={
-    origin:'https://voluble-sopapillas-11c6dd.netlify.app', 
+    origin:'https://genuine-sfogliatella-4266f8.netlify.app', 
     mode: 'no-cors',
  }
 app.use(cors(corsOptions));
